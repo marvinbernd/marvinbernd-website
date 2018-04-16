@@ -1,0 +1,47 @@
+{% include header.html %}
+<header id="header">
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text logo"><a href="{{ site.baseurl }}/">marvin<br />bernd/</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li class="menu-text">
+          <div id="menu-button" data-toggle="offCanvas">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+            <span class="button-text">Menü</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+<main id="main">
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="cell small-12 large-4">
+        <div class="grid-y">
+          <div class="cell large-auto large-cell-block-container" id="project-intro">
+            {{ content }}
+          </div>
+          <div class="cell shrink footer">
+            <a href="#"><i class="fa fa-long-arrow-left prev-project"></i></a>
+            <a href="#"><i class="fa fa-long-arrow-right next-project"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="cell small-12 large-8">
+        <div class="project-slider">
+          {% for image in page.images %}
+            <div class="slider-item"><img src="{{ site.baseurl }}/{{ image }}"></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+{% include footer.html %}

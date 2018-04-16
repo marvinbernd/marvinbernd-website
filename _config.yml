@@ -1,0 +1,25 @@
+baseurl: ''
+
+plugins_dir:  _jekyll/_plugins
+layouts_dir:  _jekyll/_layouts
+data_dir:     _jekyll/_data
+includes_dir: _jekyll/_includes
+
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - bitbucket-pipelines.yml
+  - Gemfile
+  - Gemfile.lock
+  - modernizr-config.json
+
+include:
+  - _assets
+
+collections:
+  pages:
+    output: true
+  projects:
+    output: true

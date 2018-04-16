@@ -1,0 +1,91 @@
+#header {
+  body.layout-default &, body.layout-project & {
+    padding-bottom: 2rem;
+  }
+  .top-bar {
+    padding: 0;
+    background: none;
+    ul {
+      background: none;
+      .logo {
+        font-size: 1.4rem;
+        padding: 0;
+        @media screen and (min-width: 100em) {
+          font-size: 1.8rem;
+        }
+        a {
+          color: #000;
+        }
+      }
+      #menu-button {
+        width: 60px;
+        height: 40px;
+        border: 2px solid #000;
+        position: relative;
+        cursor: pointer;
+        @media screen and (min-width: 100em) {
+          width: 67.5px;
+          height: 45px;
+        }
+        .line {
+          width: 80%;
+          height: 2px;
+          background: #000;
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          transition: all .3s ease;
+          &.line-1 {
+            margin-top: -9px;
+            @media screen and (min-width: 100em) {
+              margin-top: -10px;
+            }
+          }
+          &.line-3 {
+            margin-top: 9px;
+            @media screen and (min-width: 100em) {
+              margin-top: 10px;
+            }
+          }
+        }
+        .button-text {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: #000;
+          visibility: none;
+          opacity: 0;
+          transition: all .3s ease;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          height: 100%;
+          background: #EBF8FF;
+          visibility: none;
+          opacity: 0;
+          transition: all .3s ease;
+        }
+        &:hover {
+          &::before {
+            visibility: visible;
+            opacity: 1;
+          }
+          .line {
+            visibility: none;
+            opacity: 0;
+          }
+          .button-text {
+            visibility: visible;
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

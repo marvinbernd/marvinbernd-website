@@ -1,0 +1,24 @@
+{% include header.html %}
+<header id="header">
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="menu">
+        <li class="menu-text logo"><a href="{{ site.baseurl }}/">marvin<br />bernd/</a></li>
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li class="menu-text">
+          <div id="menu-button" data-toggle="offCanvas">
+            <span class="line line-1"></span>
+            <span class="line line-2"></span>
+            <span class="line line-3"></span>
+            <span class="button-text">Menü</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+{{ content }}
+{% include footer.html %}

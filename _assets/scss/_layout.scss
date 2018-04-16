@@ -1,0 +1,51 @@
+body, html {
+  width: 100vw;
+  height: 100%;
+  background: #fdfdfd;
+}
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#offCanvas {
+  background: #000;
+  padding-top: 4rem;
+  .close-button {
+    span {
+      color: #fff;
+      font-size: 2.4rem;
+    }
+  }
+  .menu {
+    li {
+      a {
+        font-family: 'Pier';
+        font-size: 2rem;
+        color: #fff;
+        position: relative;
+        display: inline-block;
+        @media screen and (min-width: 100em) {
+          font-size: 2.4rem;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 0;
+          height: 100%;
+          background: #EBF8FF;
+          z-index: -1;
+          transition: all .3s ease;
+        }
+        &:hover {
+          color: #000;
+          &::before {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.highlight {
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 0;
+    height: 80%;
+    width: 105%;
+    background: #EBF8FF;
+    z-index: -1;
+  }
+}

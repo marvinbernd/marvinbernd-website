@@ -1,0 +1,28 @@
+<!doctype html>
+<html class="no-js" lang="{{ page.lang }}">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation for Sites</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/_assets/bower_components/foundation-sites/dist/css/foundation.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/_assets/bower_components/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/_assets/bower_components/slick-carousel/slick/slick-theme.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/_assets/css/styles.css">
+    <script src="https://use.fortawesome.com/aca6aee2.js"></script>
+  </head>
+  <body class="{{ page.class }} layout-{{ page.layout }}">
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas position-right" id="offCanvas" data-off-canvas>
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <ul class="vertical menu">
+          <li><a href="#">Start</a></li>
+          <li><a href="#">Projekte</a></li>
+          <li><a href="#">Über mich</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="off-canvas-content" data-off-canvas-content>
+        <div id="wrapper">

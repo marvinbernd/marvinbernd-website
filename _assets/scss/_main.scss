@@ -1,0 +1,78 @@
+#main {
+  position: relative;
+  body.start & {
+    padding: 2rem 0;
+    @media screen and (min-width: 64em) {
+      height: 100%;
+      .main-content {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        h1 {
+          @media screen and (min-width: 100em) {
+            font-size: 4rem;
+          }
+        }
+      }
+    }
+  }
+  body.projects & {
+    a {
+      color: #000;
+      text-decoration: none;
+    }
+    .project-item {
+      margin-bottom: 2rem;
+    }
+  }
+  body.about & {
+    #about-image {
+      width: 80%;
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 8px solid #EBF8FF;
+        top: 40px;
+        left: 40px;
+      }
+    }
+    .menu {
+      margin-top: 4rem;
+      li {
+        margin: 0.2rem 0;
+      }
+    }
+  }
+  body.project & {
+    .grid-y {
+      @media screen and (min-width: 64em) {
+        height: 80vh;
+      }
+    }
+    #project-intro {
+      h3 {
+        margin-bottom: 1.5rem;
+      }
+      p {
+        margin-bottom: 2rem;
+      }
+      @media screen and (min-width: 64em) {
+        padding-right: 2rem;
+      }
+    }
+    .footer {
+      padding-bottom: 2rem;
+      @media screen and (min-width: 64em) {
+        padding-bottom: 0;
+      }
+      .fa {
+        font-size: 2rem;
+        margin-right: 1rem;
+        color: #000;
+      }
+    }
+  }
+}
