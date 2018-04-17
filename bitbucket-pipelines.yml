@@ -1,0 +1,19 @@
+# This is a sample build configuration for Ruby.
+# Check our guides at https://confluence.atlassian.com/x/8r-5Mw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+image: instrumentisto/rsync-ssh
+
+pipelines:
+  branches:
+    master:
+      - step:
+          script:
+            - ssh-keyscan -p 222 -t rsa 88.99.169.45 >> ~/.ssh/known_hosts
+            - rsync -clvrz -e "ssh -p 222" _site/ $DEV_DEPLOY_URL
+    feature/*:
+      - step:
+          script:
+            - ssh-keyscan -p 222 -t rsa 88.99.169.45 >> ~/.ssh/known_hosts
+            - rsync -clvrz -e "ssh -p 222" _site/ $DEV_DEPLOY_URL
