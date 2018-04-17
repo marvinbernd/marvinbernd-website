@@ -1,4 +1,4 @@
-baseurl: ''
+baseurl: 'privat/marvinbernd-website-2018/'
 
 plugins_dir:  _jekyll/_plugins
 layouts_dir:  _jekyll/_layouts
