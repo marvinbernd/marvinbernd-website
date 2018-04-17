@@ -40,9 +40,18 @@
       }
     }
     .menu {
-      margin-top: 4rem;
+      margin: 4rem 0 2rem;
       li {
         margin: 0.2rem 0;
+      }
+    }
+    #about-content {
+      max-width: 800px;
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        margin-top: 3rem;
       }
     }
   }

@@ -4,6 +4,12 @@ body, html {
   background: #fdfdfd;
 }
 
+.grid-container {
+  @media screen and (min-width: 100em) {
+    max-width: 100rem;  
+  }
+}
+
 #wrapper {
   overflow-x: hidden;
 }
