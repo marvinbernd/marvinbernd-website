@@ -12,6 +12,6 @@ images:
 ## Oeriginal Website
 ### Programmierung & SEO
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non tellus tellus. Ut velit orci, eleifend id lacus sed, faucibus vehicula nisl. In tincidunt eleifend purus, nec lobortis magna interdum et. Nam vehicula eros dui, efficitur tempus tellus rutrum scelerisque. Nunc ac libero libero. Etiam eget blandit justo. Vestibulum mattis, elit ac dapibus condimentum, sapien enim vestibulum nibh, id scelerisque tellus est vel enim.
+Für die Agentur Oeriginal aus Zürich wurde die auf WordPress basierende Website weiterentwickelt. Der Fokus der Website liegt auf den Projekten, welche den Kunden direkt ansprechen sollen. Der Website wurde zudem noch weitere interaktive Funktionen hinzugefügt, wie z.B. ein Projektslider.
 
 [Zur Website](https://www.wailua.eu)

@@ -12,4 +12,4 @@ images:
 ## Copy-Ted Website
 ### Webdesign, Programmierung & SEO
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non tellus tellus. Ut velit orci, eleifend id lacus sed, faucibus vehicula nisl. In tincidunt eleifend purus, nec lobortis magna interdum et. Nam vehicula eros dui, efficitur tempus tellus rutrum scelerisque. Nunc ac libero libero. Etiam eget blandit justo. Vestibulum mattis, elit ac dapibus condimentum, sapien enim vestibulum nibh, id scelerisque tellus est vel enim.
+Copy-Ted ist ein Druckdienstleister in Rüsselsheim-Königstädten, der sich vorallem auf denTextildruck spezialisiert hat. Da die alte Website bereits 16 Jahre alt war und somit nicht mehr auf dem neuesten Stand war, musste eine neue her. Auf der neuen Website sollte vorallem der Textildruck in den Vordergrund, dennoch sollten die anderen Produkte nicht vernachlässigt werden. Statt mit langweiligen Text, sollten die Besucher mit beeindruckenden Bildern überzeugt werden. Zudem haben sie die Möglichkeit direkt auf der Website eine Anfrage zu versenden.

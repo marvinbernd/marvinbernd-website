@@ -12,6 +12,6 @@ images:
 ## Wailua e.K. Website
 ### Webdesign, Programmierung, SEO, Fotografie, Videobearbeitung
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non tellus tellus. Ut velit orci, eleifend id lacus sed, faucibus vehicula nisl. In tincidunt eleifend purus, nec lobortis magna interdum et. Nam vehicula eros dui, efficitur tempus tellus rutrum scelerisque. Nunc ac libero libero. Etiam eget blandit justo. Vestibulum mattis, elit ac dapibus condimentum, sapien enim vestibulum nibh, id scelerisque tellus est vel enim.
+Für die in Rüsselsheim basierende Stickerei wurde ein auf WordPress basierendes Online-Blog erstellt. Das Unternehmen hat somit die Möglichkeit ihren Kunden nützlich Informationen zu Textilveredelung & Corporate Fashion zu übermitteln. Der Blog wurde zudem für Soziale Medien optimiert, sodass man die Blogbeiträge einfacher teilen kann.
 
 [Zur Website](https://www.wailua.eu)

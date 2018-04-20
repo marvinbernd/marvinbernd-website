@@ -12,6 +12,6 @@ images:
 ## Wailua Website
 ### Webdesign, Programmierung, SEO, Fotografie, Videobearbeitung
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non tellus tellus. Ut velit orci, eleifend id lacus sed, faucibus vehicula nisl. In tincidunt eleifend purus, nec lobortis magna interdum et. Nam vehicula eros dui, efficitur tempus tellus rutrum scelerisque. Nunc ac libero libero. Etiam eget blandit justo. Vestibulum mattis, elit ac dapibus condimentum, sapien enim vestibulum nibh, id scelerisque tellus est vel enim.
+Für die in Rüsselsheim ansässige Stickerei sollte ein Relaunch der alten Website vorgenommen werden. Statt auf ein komplett dunkles Farbschema zu setzen, wie es bei der alten Website war, wurde dieses mal versucht die Website heller zu gestalten. Zudem sollte mehr das ‚Hawaii-Feeling‘ übermittelt werden, da der Firmenname von einem Wasserfall auf Hawaii stammt. Das wurde mit einem Video von dem Wasserfall auf der Startseite gelöst und mit hineinschwebenden Palmenblättern. Zu meinen Aufgaben gehörten auch Fotografie, Videoproduktion & Drohnenaufnahmen vom Gebäude.
 
 [Zur Website](https://www.wailua.eu)

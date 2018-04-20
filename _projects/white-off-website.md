@@ -12,6 +12,6 @@ images:
 ## White off/ Website
 ### Programmierung & SEO
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non tellus tellus. Ut velit orci, eleifend id lacus sed, faucibus vehicula nisl. In tincidunt eleifend purus, nec lobortis magna interdum et. Nam vehicula eros dui, efficitur tempus tellus rutrum scelerisque. Nunc ac libero libero. Etiam eget blandit justo. Vestibulum mattis, elit ac dapibus condimentum, sapien enim vestibulum nibh, id scelerisque tellus est vel enim.
+White off/ ist ein Online-Blog, welches sich mit Branding und Kommunikation von Unternehmen beschäftigt. Anhand des vorgegeben Designs des Kunden entwickelte ich die auf WordPress basierende Website. Das Layout sollte dabei so minimal wie möglich gehalten werden, damit die Inhalte im Fokus stehen. Dennoch sollte nicht auf interaktive Funktionen verzichtet werden, wie z.B. eine AJAX-Filterung auf der Startseite oder die Möglichkeit die Blog-Beiträge zu „liken“.
 
 [Zur Website](https://www.wailua.eu)
