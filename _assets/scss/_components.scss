@@ -47,7 +47,10 @@
     .slick-slide {
       .slider-item {
         img {
-          height: 200px;
+          height: 250px;
+          @media screen and (min-width: 40em) {
+            height: 350px;
+          }
           @media screen and (min-width: 64em) {
             height: 50vh;
           }
@@ -135,8 +138,19 @@
           left: 0;
           width: 60%;
           transform: translate(0, -50%);
+          h2 {
+            @media screen and (min-width: 40em) {
+              font-size: 1.8rem;
+            }
+            @media screen and (min-width: 64em) {
+              font-size: 2rem;
+            }
+          }
           p {
             font-size: 1rem;
+            @media screen and (min-width: 40em) {
+              font-size: 1.2rem;
+            }
           }
         }
       }

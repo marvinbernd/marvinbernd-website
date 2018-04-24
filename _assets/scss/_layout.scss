@@ -6,7 +6,7 @@ body, html {
 
 .grid-container {
   @media screen and (min-width: 100em) {
-    max-width: 100rem;  
+    max-width: 100rem;
   }
 }
 
@@ -52,6 +52,13 @@ body, html {
           }
         }
       }
+    }
+  }
+  #imprint-menu {
+    margin-top: 2rem;
+    a {
+      font-size: 1.2rem;
+      line-height: 1.2;
     }
   }
 }

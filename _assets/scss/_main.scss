@@ -4,15 +4,20 @@
     padding: 2rem 0;
     @media screen and (min-width: 64em) {
       height: 100%;
-      .main-content {
+    }
+    .main-content {
+      @media screen and (min-width: 64em) {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        h1 {
-          @media screen and (min-width: 100em) {
-            font-size: 4rem;
-          }
+      }
+      h1 {
+        @media screen and (min-width: 100em) {
+          font-size: 4rem;
         }
+      }
+      .button-primary {
+        font-size: 1.2rem !important;
       }
     }
   }
@@ -52,6 +57,12 @@
       }
       h2 {
         margin-top: 3rem;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 2rem;
       }
     }
   }
