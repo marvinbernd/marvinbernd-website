@@ -4,6 +4,9 @@ class: project
 lang: de
 title: Copy-Ted Website
 permalink: projekte/copy-ted-website/
+seo_title: Copy-Ted Website - Web Designer & Developer - Marvin Bernd
+seo_description:
+seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierer, SEO
 images:
   - '_assets/images/mb-projects-copyted-01-960px.jpg'
   - '_assets/images/mb-projects-copyted-02-960px.jpg'

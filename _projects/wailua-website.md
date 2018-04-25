@@ -2,8 +2,11 @@
 layout: project
 class: project
 lang: de
-title: Wailua e.K. Website
+title: Wailua Website
 permalink: projekte/wailua-website/
+seo_title: Wailua Website - Web Designer & Developer - Marvin Bernd
+seo_description:
+seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierer, SEO
 images:
   - '_assets/images/mb-projects-wailua-01-960px.jpg'
   - '_assets/images/mb-projects-wailua-02-960px.jpg'
