@@ -1,20 +1,26 @@
-image: dalibo/jekyll_docker
-
 pipelines:
   branches:
     master:
       - step:
+          image: jekyll/jekyll
           script:
             - '[ -f Gemfile ] && bundle install'
             - gem install bundler
             - bundle exec jekyll build
+      - step:
+          image: instrumentisto/rsync-ssh
+          script:
             - ssh-keyscan -p 222 -t rsa 88.99.169.45 >> ~/.ssh/known_hosts
             - rsync -clvrz -e "ssh -p 222" _site/ $DEV_DEPLOY_URL
     feature/*:
       - step:
+          image: jekyll/jekyll
           script:
             - '[ -f Gemfile ] && bundle install'
             - gem install bundler
-            - bundle exec jekyll build --config "_config.yml,_config_dev.yml"
+            - bundle exec jekyll build
+      - step:
+          image: instrumentisto/rsync-ssh
+          script:
             - ssh-keyscan -p 222 -t rsa 88.99.169.45 >> ~/.ssh/known_hosts
-            - rsync -rvz -e "ssh -p 222" _site/ $DEV_DEPLOY_URL
+            - rsync -clvrz -e "ssh -p 222" _site/ $DEV_DEPLOY_URL
