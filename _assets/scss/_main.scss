@@ -13,11 +13,25 @@
       }
       h1 {
         @media screen and (min-width: 100em) {
+          font-size: 3rem;
+        }
+        @media screen and (min-width: 120em) {
           font-size: 4rem;
+        }
+        .highlight {
+          &::before {
+            display: none;
+            @media screen and (min-width: 40em) {
+              display: inline-block;
+            }
+          }
         }
       }
       .button-primary {
         @media screen and (min-width: 100em) {
+          font-size: 1.1rem !important;
+        }
+        @media screen and (min-width: 120em) {
           font-size: 1.2rem !important;
         }
       }
