@@ -1,8 +1,3 @@
-# This is a sample build configuration for Ruby.
-# Check our guides at https://confluence.atlassian.com/x/8r-5Mw for more examples.
-# Only use spaces to indent your .yml configuration.
-# -----
-# You can specify a custom docker image from Docker Hub as your build environment.
 image: dalibo/jekyll_docker
 
 pipelines:
@@ -10,16 +5,16 @@ pipelines:
     master:
       - step:
           script:
-            - gem install bundler jekyll
             - '[ -f Gemfile ] && bundle install'
-            - bundle exec jekyll build --config "_config.yml,_config_dev.yml"
+            - gem install bundler
+            - bundle exec jekyll build
             - ssh-keyscan -p 222 -t rsa 88.99.169.45 >> ~/.ssh/known_hosts
             - rsync -clvrz -e "ssh -p 222" _site/ $DEV_DEPLOY_URL
     feature/*:
       - step:
           script:
-            - gem install bundler jekyll
             - '[ -f Gemfile ] && bundle install'
+            - gem install bundler
             - bundle exec jekyll build --config "_config.yml,_config_dev.yml"
             - ssh-keyscan -p 222 -t rsa 88.99.169.45 >> ~/.ssh/known_hosts
-            - rsync -clvrz -e "ssh -p 222" _site/ $DEV_DEPLOY_URL
+            - rsync -rvz -e "ssh -p 222" _site/ $DEV_DEPLOY_URL
