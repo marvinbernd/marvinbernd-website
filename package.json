@@ -18,9 +18,16 @@
     "child_process": "^1.0.2",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "sassdoc": "^2.5.0"
+  },
+  "dependencies": {
+    "npm": "^6.0.0"
   }
 }

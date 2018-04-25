@@ -29,8 +29,12 @@
             {{ content }}
           </div>
           <div class="cell shrink footer">
-            <a href="#"><i class="fa fa-long-arrow-left prev-project"></i></a>
-            <a href="#"><i class="fa fa-long-arrow-right next-project"></i></a>
+            {% if page.previous.url %}
+              <a href="{{ page.previous.url }}"><i class="fa fa-long-arrow-left prev-project"></i></a>
+            {% endif %}
+            {% if page.next.url %}
+              <a href="{{ page.next.url }}"><i class="fa fa-long-arrow-right next-project"></i></a>
+            {% endif %}
           </div>
         </div>
       </div>

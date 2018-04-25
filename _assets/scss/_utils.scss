@@ -1,5 +1,7 @@
 .highlight {
   position: relative;
+  color: #000;
+  transform: translateZ(1px);
   &::before {
     content: "";
     position: absolute;
