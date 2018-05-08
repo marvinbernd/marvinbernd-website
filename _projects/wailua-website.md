@@ -5,8 +5,8 @@ lang: de
 title: Wailua Website
 permalink: projekte/wailua-website/
 seo_title: Wailua Website - Web Designer & Developer - Marvin Bernd
-seo_description:
-seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierer, SEO
+seo_description: Für die in Rüsselsheim ansässige Stickerei sollte ein Relaunch der alten Website vorgenommen werden.
+seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierung, SEO
 images:
   - '_assets/images/mb-projects-wailua-01-960px.jpg'
   - '_assets/images/mb-projects-wailua-02-960px.jpg'
