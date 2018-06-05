@@ -1,6 +1,18 @@
 <!doctype html>
 <html class="no-js" lang="{{ page.lang }}">
   <head>
+    <script type="text/javascript">
+    var gaProperty = 'UA-73722280-1';
+    var disableStr = 'ga-disable-' + gaProperty;
+    if (document.cookie.indexOf(disableStr + '=true') > -1) {
+    window[disableStr] = true;
+    }
+    function gaOptout() {
+    document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+    window[disableStr] = true;
+    alert('Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Website deaktiviert.');
+    }
+    </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -50,13 +62,28 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <ul class="vertical menu">
+          {% if page.lang == 'de' %}
           <li><a href="{{ site.baseurl }}/">Start</a></li>
           <li><a href="{{ site.baseurl }}/projekte/">Projekte</a></li>
           <li><a href="{{ site.baseurl }}/ueber-mich/">Über mich</a></li>
           <li><a href="mailto:hello@marvinbernd.de">Kontakt</a></li>
+          {% else %}
+          <li><a href="{{ site.baseurl }}/en/">Start</a></li>
+          <li><a href="{{ site.baseurl }}/en/projects/">Projects</a></li>
+          <li><a href="{{ site.baseurl }}/en/about/">About</a></li>
+          <li><a href="mailto:hello@marvinbernd.de">Contact</a></li>
+          {% endif %}
         </ul>
         <ul class="vertical menu" id="imprint-menu">
+          {% if page.lang == 'de' %}
           <li><a href="{{ site.baseurl }}/impressum/">Impressum / Datenschutz</a></li>
+          {% else %}
+          <li><a href="{{ site.baseurl }}/imprint/">Imprint / Privacy Policy</a></li>
+          {% endif %}
+        </ul>
+        <ul class="vertical menu" id="contact-menu">
+          <li><a href="mailto:hello@marvinbernd.de">hello@marvinbernd.de</a></li>
+          <li><a href="tel:+4915206049110">+49 1520 6049110</a></li>
         </ul>
       </div>
       <div class="off-canvas-content" data-off-canvas-content>

@@ -11,6 +11,8 @@ const gutil = require('gulp-util');
 const child = require('child_process');
 const browserSync = require('browser-sync').create();
 
+const babel = require('gulp-babel');
+
 // variables
 const input = './_assets/scss/styles.scss';
 const output = './_assets/css';
@@ -33,10 +35,16 @@ const jsFiles = [
   './_assets/bower_components/jquery/dist/jquery.js',
   './_assets/bower_components/what-input/dist/what-input.js',
   './_assets/bower_components/foundation-sites/dist/js/foundation.js',
+  './_assets/bower_components/cookie-notice-js/dist/cookie.notice.js',
   './_assets/bower_components/slick-carousel/slick/slick.js',
+  './_assets/js/instagram.js',
   './_assets/js/scripts.js'
 ];
 const jsDest = './_assets/js';
+const jsWatch = [
+  './_assets/js/instagram.js',
+  './_assets/js/scripts.js'
+];
 
 const cssFiles = [
   './_assets/bower_components/foundation-sites/dist/css/foundation.css',
@@ -70,10 +78,11 @@ gulp.task('css', function() {
 
 gulp.task('scripts', function() {
   return gulp.src(jsFiles)
+    .pipe(babel({ignore: ['./_assets/bower_components/what-input/dist/what-input.js']}))
     .pipe(concat('app.js'))
     .pipe(gulp.dest(jsDest))
     .pipe(rename('app.min.js'))
-    .pipe(uglify())
+
     .pipe(gulp.dest(jsDest));
 });
 
@@ -106,11 +115,11 @@ gulp.task('browserSync', () => {
   });
 });
 
-gulp.task('watch', function() {
+gulp.task('watch:css', function() {
   return gulp
     // Watch the input folder for change,
     // and run `sass` task when something happens
-    .watch([sassWatch, './**/*.html'], ['sass', 'css'])
+    .watch(sassWatch, ['sass', 'css'])
     // When there is a change,
     // log a message in the console
     .on('change', function(event) {
@@ -119,4 +128,17 @@ gulp.task('watch', function() {
     });
 });
 
-gulp.task('default', ['jekyll', 'sass', 'css', 'scripts', 'browserSync', 'watch']);
+gulp.task('watch:js', function() {
+  return gulp
+    // Watch the input folder for change,
+    // and run `sass` task when something happens
+    .watch(jsWatch, ['scripts'])
+    // When there is a change,
+    // log a message in the console
+    .on('change', function(event) {
+      console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
+      browserSync.reload();
+    });
+});
+
+gulp.task('default', ['jekyll', 'sass', 'css', 'scripts', 'browserSync', 'watch:css', 'watch:js']);

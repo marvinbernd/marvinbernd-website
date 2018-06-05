@@ -1,5 +1,11 @@
 #main {
   position: relative;
+  body.layout-default & {
+    a {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
   body.start & {
     padding: 2rem 0;
     @media screen and (min-width: 64em) {
@@ -64,6 +70,9 @@
       margin: 4rem 0 2rem;
       li {
         margin: 0.2rem 0;
+        a {
+          text-decoration: none !important;
+        }
       }
     }
     #about-content {

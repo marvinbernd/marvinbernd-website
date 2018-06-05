@@ -168,6 +168,41 @@
   }
 }
 
+#instafeed {
+  margin: .5rem auto;
+  .cell {
+    margin-bottom: 1.8rem;
+    .instafeed-image-wrapper {
+      width: 100%;
+      position: relative;
+      cursor: pointer;
+      &::after {
+        content: '\f000';
+        font-family: 'marvinbernd';
+        font-size: 3rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        opacity: 0;
+        transition: all .4s ease;
+      }
+      &:hover, &:focus, &:active {
+        &::after {
+          opacity: 1;
+          font-size: 4rem
+        }
+      }
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
+
 
 /* Coded by Lorenzo Bocchi ~ www.be.net/LorenzoBocchi */
 /* Designed by CSS Design Awards ~ www.cssdesignawards.com */

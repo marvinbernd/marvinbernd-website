@@ -1,6 +1,18 @@
 <!doctype html>
 <html class="no-js" lang="de">
   <head>
+    <script type="text/javascript">
+    var gaProperty = 'UA-73722280-1';
+    var disableStr = 'ga-disable-' + gaProperty;
+    if (document.cookie.indexOf(disableStr + '=true') > -1) {
+    window[disableStr] = true;
+    }
+    function gaOptout() {
+    document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+    window[disableStr] = true;
+    alert('Das Tracking durch Google Analytics wurde in Ihrem Browser für diese Website deaktiviert.');
+    }
+    </script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -50,13 +62,21 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <ul class="vertical menu">
+          
           <li><a href="/">Start</a></li>
           <li><a href="/projekte/">Projekte</a></li>
           <li><a href="/ueber-mich/">Über mich</a></li>
           <li><a href="mailto:hello@marvinbernd.de">Kontakt</a></li>
+          
         </ul>
         <ul class="vertical menu" id="imprint-menu">
+          
           <li><a href="/impressum/">Impressum / Datenschutz</a></li>
+          
+        </ul>
+        <ul class="vertical menu" id="contact-menu">
+          <li><a href="mailto:hello@marvinbernd.de">hello@marvinbernd.de</a></li>
+          <li><a href="tel:+4915206049110">+49 1520 6049110</a></li>
         </ul>
       </div>
       <div class="off-canvas-content" data-off-canvas-content>
