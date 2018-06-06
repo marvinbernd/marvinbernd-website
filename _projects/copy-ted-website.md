@@ -4,6 +4,8 @@ class: project
 lang: de
 title: Copy-Ted Website
 permalink: projekte/copy-ted-website/
+alternate_en: https://www.marvinbernd.de/en/projects/copy-ted-website/
+alternate_default: https://www.marvinbernd.de/en/projects/copy-ted-website/
 seo_title: Copy-Ted Website - Web Designer & Developer - Marvin Bernd
 seo_description: Copy-Ted ist ein Druckdienstleister in Rüsselsheim-Königstädten, der sich vorallem auf den Textildruck spezialisiert hat.
 seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierung, SEO

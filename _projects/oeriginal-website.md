@@ -4,6 +4,8 @@ class: project
 lang: de
 title: Oeriginal Website
 permalink: projekte/oeriginal-website/
+alternate_en: https://www.marvinbernd.de/en/projects/oeriginal-website/
+alternate_default: https://www.marvinbernd.de/en/projects/oeriginal-website/
 seo_title: Oeriginal Website - Web Designer & Developer - Marvin Bernd
 seo_description: Für die Agentur Oeriginal aus Zürich wurde die auf WordPress basierende Website weiterentwickelt. Der Fokus der Website liegt auf den Projekten, welche den Kunden direkt ansprechen sollen.
 seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierung, SEO

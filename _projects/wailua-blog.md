@@ -4,6 +4,8 @@ class: project
 lang: de
 title: Wailua Blog
 permalink: projekte/wailua-blog/
+alternate_en: https://www.marvinbernd.de/en/projects/wailua-blog/
+alternate_default: https://www.marvinbernd.de/en/projects/wailua-blog/
 seo_title: Wailua Blog - Web Designer & Developer - Marvin Bernd
 seo_description: Für die in Rüsselsheim basierende Stickerei wurde ein auf WordPress basierendes Online-Blog erstellt.
 seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierung, SEO

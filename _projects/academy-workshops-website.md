@@ -4,6 +4,8 @@ class: project
 lang: de
 title: Academy of Fine Art Workshops Website
 permalink: projekte/academy-workshops-website/
+alternate_en: https://www.marvinbernd.de/en/projects/academy-workshops-website/
+alternate_default: https://www.marvinbernd.de/en/projects/academy-workshops-website/
 seo_title: Academy of Fine Art Workshops Website - Web Designer & Developer - Marvin Bernd
 seo_description: Für die in Bad Homburg basierende Kunstschule wurde ein Online-System auf Basis von WordPress entwickelt, mit dem die Schule ihre Workshops verwalten kann.
 seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierung, SEO

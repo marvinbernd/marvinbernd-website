@@ -4,6 +4,8 @@ class: project
 lang: de
 title: White off/ Website
 permalink: projekte/white-off-website/
+alternate_en: https://www.marvinbernd.de/en/projects/white-off-website/
+alternate_default: https://www.marvinbernd.de/en/projects/white-off-website/
 seo_title: White off/ Website - Web Designer & Developer - Marvin Bernd
 seo_description: White off/ ist ein Online-Blog, welches sich mit Branding und Kommunikation von Unternehmen beschäftigt. Anhand des vorgegeben Designs des Kunden entwickelte ich die auf WordPress basierende Website.
 seo_keywords: Webdesign, Webdesigner, Website, Webseiten, Programmierung, SEO

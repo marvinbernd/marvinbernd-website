@@ -27,6 +27,15 @@
     <meta name="description" content="{{ page.seo_description }}">
     <meta name="author" content="Marvin Bernd Web Designer & Developer">
 	  <meta name="copyright" content="(c) 2018 Marvin Bernd Web Designer & Developer">
+    {% if page.alternate_de %}
+    <link rel="alternate" hreflang="de" href="{{ page.alternate_de }}" />
+    {% endif %}
+    {% if page.alternate_en %}
+    <link rel="alternate" hreflang="en" href="{{ page.alternate_en }}" />
+    {% endif %}
+    {% if page.alternate_default %}
+    <link rel="alternate" hreflang="x-default" href="{{ page.alternate_default }}" />
+    {% endif %}
     <!-- favicons -->
     <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ site.baseurl }}/_assets/favicons/apple-touch-icon-57x57.png" />
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ site.baseurl }}/_assets/favicons/apple-touch-icon-114x114.png" />
