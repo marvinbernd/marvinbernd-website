@@ -21,5 +21,7 @@ include:
 collections:
   pages:
     output: true
+    permalink: /:name
   projects:
     output: true
+    permalink: /:name
