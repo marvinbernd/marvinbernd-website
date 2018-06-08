@@ -10,9 +10,7 @@ seo_title: Wailua Blog - Web Designer & Developer - Marvin Bernd
 seo_description: I created an online blog based on WordPress for the embroidery in Rüsselsheim, Germany.
 seo_keywords: Webdesign, Webdesigner, Website, Websites, Programming, SEO
 images:
-  - '_assets/images/mb-projects-wailua-01-960px.jpg'
-  - '_assets/images/mb-projects-wailua-02-960px.jpg'
-  - '_assets/images/mb-projects-wailua-03-960px.jpg'
+  - '_assets/images/mb-projects-wailua-blog-01-960px.jpg'
 ---
 ## Wailua Blog
 ### Webdesign, Programming, SEO
