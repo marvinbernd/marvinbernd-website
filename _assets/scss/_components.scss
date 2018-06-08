@@ -133,10 +133,10 @@
         color: #fff;
         font-weight: bold;
         font-size: 1.4rem;
+        width: 100%;
         body.start & {
           padding: 2rem;
           left: 0;
-          width: 60%;
           transform: translate(0, -50%);
           h2 {
             @media screen and (min-width: 40em) {
@@ -148,6 +148,7 @@
           }
           p {
             font-size: 1rem;
+            max-width: 320px;
             @media screen and (min-width: 40em) {
               font-size: 1.2rem;
             }
