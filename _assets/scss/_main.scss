@@ -50,6 +50,9 @@
     }
     .project-item {
       margin-bottom: 2rem;
+      .overlay-content {
+        text-align: center;
+      }
     }
   }
   body.about & {
