@@ -53,24 +53,22 @@ body, html {
         }
       }
     }
-  }
-  #imprint-menu {
-    margin-top: 2rem;
-    a {
-      font-size: 1.2rem;
-      line-height: 1.2;
-    }
-  }
-  #contact-menu {
-    margin-top: 2rem;
-    a {
-      font-size: 1.2rem;
-      line-height: 1.2;
-      padding-top: 0 !important;
-      padding-bottom: 0 !important;
-      color: #fff !important;
-      &::before {
-        display: none !important;
+    &.sub-menu {
+      &#imprint-menu {
+        margin-top: 2rem;
+      }
+      &#contact-menu, &#lang-menu {
+        margin-top: 1rem;
+      }
+      a {
+        font-size: 1.2rem;
+        line-height: 1.2;
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+        color: #fff !important;
+        &::before {
+          display: none !important;
+        }
       }
     }
   }
