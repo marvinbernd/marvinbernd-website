@@ -17,6 +17,6 @@ images:
 ## Wailua Website
 ### Webdesign, Programmierung, SEO, Fotografie, Videobearbeitung
 
-Für die in Rüsselsheim ansässige Stickerei sollte ein Relaunch der alten Website vorgenommen werden. Statt auf ein komplett dunkles Farbschema zu setzen, wie es bei der alten Website war, wurde dieses mal versucht die Website heller zu gestalten. Zudem sollte mehr das ‚Hawaii-Feeling‘ übermittelt werden, da der Firmenname von einem Wasserfall auf Hawaii stammt. Das wurde mit einem Video von dem Wasserfall auf der Startseite gelöst und mit hineinschwebenden Palmenblättern. Zu meinen Aufgaben gehörten auch Fotografie, Videoproduktion & Drohnenaufnahmen vom Gebäude.
+Für die in Rüsselsheim ansässige Stickerei sollte ein Relaunch der alten Website vorgenommen werden. Statt auf ein komplett dunkles Farbschema zu setzen, wie es bei der alten Website war, wurde dieses mal versucht die Website heller zu gestalten. Zudem sollte mehr das ‚Hawaii-Feeling‘ übermittelt werden, da der Firmenname von einem Wasserfall auf Hawaii stammt. Das wurde mit einem Video von dem Wasserfall auf der Startseite gelöst und mit hineinschwebenden Palmenblättern. Zu meinen Aufgaben gehörten auch Fotografie, Videoproduktion & Drohnenaufnahmen.
 
 [Zur Website](https://www.wailua.eu)
