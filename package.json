@@ -24,6 +24,7 @@
     "gulp-babel": "^7.0.1",
     "gulp-clean-css": "^3.9.3",
     "gulp-concat": "^2.6.1",
+    "gulp-minify": "^3.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^4.0.1",
     "gulp-sourcemaps": "^2.6.4",
@@ -32,9 +33,11 @@
     "sassdoc": "^2.5.0"
   },
   "dependencies": {
-    "npm": "^6.0.0"
+    "npm": "^6.1.0"
   },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   }
 }

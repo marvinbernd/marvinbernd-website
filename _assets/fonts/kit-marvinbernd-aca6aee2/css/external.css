@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: 'Marvinbernd';
-  src: url('../icons/icons.eot');
-  src: url('../icons/icons.eot?#iefix') format('embedded-opentype'),
-       url('../icons/icons.woff2') format('woff2'),
-       url('../icons/icons.woff') format('woff'),
-       url('../icons/icons.ttf') format('truetype'),
-       url('../icons/icons.otf') format('opentype');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/icons/icons.eot');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/icons/icons.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/icons/icons.woff2') format('woff2'),
+       url('../fonts/kit-marvinbernd-aca6aee2/icons/icons.woff') format('woff'),
+       url('../fonts/kit-marvinbernd-aca6aee2/icons/icons.ttf') format('truetype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/icons/icons.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,48 +15,48 @@
 
 @font-face {
   font-family: 'CharlevoixPro';
-  src: url('../typefaces/charlevoixpro-normal-normal-88da2db1f.eot');
-  src: url('../typefaces/charlevoixpro-normal-normal-88da2db1f.eot?#iefix') format('embedded-opentype'),
-       url('../typefaces/charlevoixpro-normal-normal-88da2db1f.woff2') format('woff2'),
-       url('../typefaces/charlevoixpro-normal-normal-88da2db1f.woff') format('woff'),
-       url('../typefaces/charlevoixpro-normal-normal-88da2db1f.ttf') format('truetype'),
-       url('../typefaces/charlevoixpro-normal-normal-88da2db1f.otf') format('opentype');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-normal-normal-88da2db1f.eot');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-normal-normal-88da2db1f.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-normal-normal-88da2db1f.woff2') format('woff2'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-normal-normal-88da2db1f.woff') format('woff'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-normal-normal-88da2db1f.ttf') format('truetype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-normal-normal-88da2db1f.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CharlevoixPro';
-  src: url('../typefaces/charlevoixpro-bold-normal-07e4dff34.eot');
-  src: url('../typefaces/charlevoixpro-bold-normal-07e4dff34.eot?#iefix') format('embedded-opentype'),
-       url('../typefaces/charlevoixpro-bold-normal-07e4dff34.woff2') format('woff2'),
-       url('../typefaces/charlevoixpro-bold-normal-07e4dff34.woff') format('woff'),
-       url('../typefaces/charlevoixpro-bold-normal-07e4dff34.ttf') format('truetype'),
-       url('../typefaces/charlevoixpro-bold-normal-07e4dff34.otf') format('opentype');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-bold-normal-07e4dff34.eot');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-bold-normal-07e4dff34.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-bold-normal-07e4dff34.woff2') format('woff2'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-bold-normal-07e4dff34.woff') format('woff'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-bold-normal-07e4dff34.ttf') format('truetype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/charlevoixpro-bold-normal-07e4dff34.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Pier';
-  src: url('../typefaces/pier-normal-normal-66f1b939c.eot');
-  src: url('../typefaces/pier-normal-normal-66f1b939c.eot?#iefix') format('embedded-opentype'),
-       url('../typefaces/pier-normal-normal-66f1b939c.woff2') format('woff2'),
-       url('../typefaces/pier-normal-normal-66f1b939c.woff') format('woff'),
-       url('../typefaces/pier-normal-normal-66f1b939c.ttf') format('truetype'),
-       url('../typefaces/pier-normal-normal-66f1b939c.otf') format('opentype');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-normal-normal-66f1b939c.eot');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-normal-normal-66f1b939c.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-normal-normal-66f1b939c.woff2') format('woff2'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-normal-normal-66f1b939c.woff') format('woff'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-normal-normal-66f1b939c.ttf') format('truetype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-normal-normal-66f1b939c.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Pier';
-  src: url('../typefaces/pier-bold-normal-ef137eea6.eot');
-  src: url('../typefaces/pier-bold-normal-ef137eea6.eot?#iefix') format('embedded-opentype'),
-       url('../typefaces/pier-bold-normal-ef137eea6.woff2') format('woff2'),
-       url('../typefaces/pier-bold-normal-ef137eea6.woff') format('woff'),
-       url('../typefaces/pier-bold-normal-ef137eea6.ttf') format('truetype'),
-       url('../typefaces/pier-bold-normal-ef137eea6.otf') format('opentype');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-bold-normal-ef137eea6.eot');
+  src: url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-bold-normal-ef137eea6.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-bold-normal-ef137eea6.woff2') format('woff2'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-bold-normal-ef137eea6.woff') format('woff'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-bold-normal-ef137eea6.ttf') format('truetype'),
+       url('../fonts/kit-marvinbernd-aca6aee2/typefaces/pier-bold-normal-ef137eea6.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }

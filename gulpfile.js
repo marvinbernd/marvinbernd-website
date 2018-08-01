@@ -50,7 +50,7 @@ const cssFiles = [
   './_assets/bower_components/foundation-sites/dist/css/foundation.css',
   './_assets/bower_components/slick-carousel/slick/slick.css',
   './_assets/bower_components/slick-carousel/slick/slick-theme.css',
-  './_assets/fonts/kit-marvinbernd-aca6aee2/css/embedded-woff.css',
+  './_assets/fonts/kit-marvinbernd-aca6aee2/css/external.css',
   './_assets/css/styles.css'
 ];
 const cssDest = './_assets/css';
@@ -78,11 +78,10 @@ gulp.task('css', function() {
 
 gulp.task('scripts', function() {
   return gulp.src(jsFiles)
-    .pipe(babel({ignore: ['./_assets/bower_components/what-input/dist/what-input.js']}))
-    .pipe(concat('app.js'))
-    .pipe(gulp.dest(jsDest))
-    .pipe(rename('app.min.js'))
-
+    .pipe(babel({presets: ['es2015'], ignore: ['./_assets/bower_components/what-input/dist/what-input.js']}))
+    .pipe(concat('app.min.js'))
+    .pipe(uglify())
+    .on('error', function (err) { gutil.log(gutil.colors.red('[Error]'), err.toString()); })
     .pipe(gulp.dest(jsDest));
 });
 

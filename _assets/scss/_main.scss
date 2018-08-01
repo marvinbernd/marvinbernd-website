@@ -9,14 +9,11 @@
   body.start & {
     padding: 2rem 0;
     @media screen and (min-width: 64em) {
-      height: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
     }
     .main-content {
-      @media screen and (min-width: 64em) {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-      }
       h1 {
         @media screen and (min-width: 100em) {
           font-size: 3rem;
