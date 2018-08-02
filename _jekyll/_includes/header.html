@@ -27,6 +27,9 @@
     <meta name="description" content="{{ page.seo_description }}">
     <meta name="author" content="Marvin Bernd Web Designer & Developer">
 	  <meta name="copyright" content="(c) 2018 Marvin Bernd Web Designer & Developer">
+    {% if page.meta_robots %}
+    <meta name="robots" content="{{ page.meta_robots }}" />
+    {% endif %}
     {% if page.alternate_de %}
     <link rel="alternate" hreflang="de" href="{{ page.alternate_de }}" />
     {% endif %}
