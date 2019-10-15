@@ -18,6 +18,9 @@ exclude:
 include:
   - _assets
 
+plugins:
+  - jekyll-sitemap
+
 collections:
   pages:
     output: true
